@@ -1,0 +1,20 @@
+.app {
+    background-color: #f3f2ef;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+
+.app__header{
+    display: flex;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+.app__footer {
+    display: flex;
+    margin-top: 35px;
+    max-width: 1200px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
